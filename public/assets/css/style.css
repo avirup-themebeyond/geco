@@ -5124,12 +5124,12 @@ ul.minicart .cart-price .new {
 
 /* Trending */
 
-.trending-news-active button.slick-arrow {
+/* .trending-news-active button.slick-arrow {
     position: absolute;
     top: -60px;
     left: 250px;
     z-index: 1;
-}
+} */
 .trending-gamepay-area {
 	background: #171821;
 	padding: 80px 0 30px;
@@ -6547,34 +6547,11 @@ ul.minicart .cart-price .new {
 .trending-news-nav,
 .business-news-nav,
 .community-news-nav {
-	margin-left: auto !important;
+	margin-left: auto;
 }
-.trending-news-active button.slick-arrow, button{
-	border: none;
-    padding: 0;
-    width: 23px;
-    height: 20px;
-    line-height: 20px;
-    background: #fff;
-    color: #24252f;
-    font-size: 12px;
-    border-radius: 3px;
-    cursor: pointer;
-	transition: .3s linear;
-}
-.business-news-nav button.slick-arrow, button{
-	border: none;
-    padding: 0;
-    width: 23px;
-    height: 20px;
-    line-height: 20px;
-    background: #fff;
-    color: #24252f;
-    font-size: 12px;
-    border-radius: 3px;
-    cursor: pointer;
-	transition: .3s linear;
-}
+
+
+/* .trending-news-area .trending-news-nav.bu button.slick-arrow, button
 .community-news-nav button.slick-arrow, button {
     border: none;
     padding: 0;
@@ -6584,21 +6561,22 @@ ul.minicart .cart-price .new {
     background: #fff;
     color: #24252f;
     font-size: 12px;
-    position: absolute;
+   
     border-radius: 3px;
     cursor: pointer;
     transition: .3s linear;
-    top: -65px;
-    left: 350px;
-    z-index: 1;
+   
+	
+    
+} */
+
+
+.trending-news-nav button.slick-arrow.slick-next {
+  margin-left: 0;
 }
 
-.trending-news-active button.slick-arrow.slick-next {
-  margin-left: 100px;
-}
-
-.trending-news-active button.slick-arrow.slick-prev {
-	margin-left: 50px;
+.trending-news-nav button.slick-arrow.slick-prev {
+	margin-left: 0px;
   }
   .community-news-nav button.slick-arrow, button.slick-arrow.slick-prev{
 	  margin-left: -45px;

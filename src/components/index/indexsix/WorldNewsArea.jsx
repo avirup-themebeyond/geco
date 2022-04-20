@@ -2,29 +2,29 @@ import React from 'react'
 import Slider from "react-slick";
 
 
-function PrevArrow(props){
-  const {className,onClick} = props;
-  return(
-    <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
-  );
-}
-function NextArrow(props){
-  const {className,onClick} = props;
-  return(
-    <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
-  );
-}
+// function PrevArrow(props){
+//   const {className,onClick} = props;
+//   return(
+//     <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
+//   );
+// }
+// function NextArrow(props){
+//   const {className,onClick} = props;
+//   return(
+//     <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
+//   );
+// }
 const WorldNewsArea = () => {
   const settings={
     dots: false,
 	infinite: true,
 	speed: 1000,
-	autoplay: false,
-	arrows: true,
+	autoplay: true,
+	arrows: false,
 	slidesToShow: 1,
 	slidesToScroll: 1,
-	prevArrow:<PrevArrow/>,
-  nextArrow: <NextArrow/>,
+	// prevArrow:<PrevArrow/>,
+  // nextArrow: <NextArrow/>,
 	appendArrows: '.business-news-nav',
 	responsive: [
 		{
@@ -104,7 +104,7 @@ const WorldNewsArea = () => {
                   </div>
                   <div className="business-news-nav" />
                 </div>
-                <Slider className="business-news-active" {...settings}>
+                <Slider className="business-news-active " {...settings}>
                   <div className="business-news-item">
                     <div className="business-news-post">
                       <a href="/#"><img src="assets/img/blog/business_blog.jpg" alt="" /></a>

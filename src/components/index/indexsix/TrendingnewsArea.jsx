@@ -6,18 +6,18 @@ import Slider from "react-slick"
 
 
 
-function PrevArrow(props){
-    const {className,onClick} = props;
-    return(
-      <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
-    );
-  }
-  function NextArrow(props){
-    const {className,onClick} = props;
-    return(
-      <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
-    );
-  }
+// function PrevArrow(props){
+//     const {className,onClick} = props;
+//     return(
+//       <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
+//     );
+//   }
+//   function NextArrow(props){
+//     const {className,onClick} = props;
+//     return(
+//       <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
+//     );
+//   }
 
 const TrendingnewsArea = () => {
 
@@ -28,13 +28,13 @@ const TrendingnewsArea = () => {
             dots: false,
             infinite: true,
             speed: 1000,
-            autoplay: false,
-            arrows: true,
+            autoplay: true,
+            arrows: false,
             slidesToShow: 3,
             slidesToScroll: 1,
             vertical: true,
-            prevArrow:<PrevArrow/>,
-            nextArrow: <NextArrow/>,
+            // prevArrow:<PrevArrow/>,
+            // nextArrow: <NextArrow/>,
             appendArrows: '.trending-news-nav',
             responsive: [
                 {
@@ -81,7 +81,7 @@ const TrendingnewsArea = () => {
             <div className="hf-section-title">
               <h4 className="title">TReNDING NEWS</h4>
             </div>
-            <div className="trending-news-nav"/>
+            <div className="trending-news-nav bu"/>
           </div>
           <div className="row">
             <div className="col-md">

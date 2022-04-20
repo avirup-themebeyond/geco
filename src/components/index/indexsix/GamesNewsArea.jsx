@@ -3,30 +3,30 @@ import Slider from "react-slick"
 
 
 
-function PrevArrow(props){
-  const {className,onClick} = props;
-  return(
-    <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
-  );
-}
-function NextArrow(props){
-  const {className,onClick} = props;
-  return(
-    <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
-  );
-}
+// function PrevArrow(props){
+//   const {className,onClick} = props;
+//   return(
+//     <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
+//   );
+// }
+// function NextArrow(props){
+//   const {className,onClick} = props;
+//   return(
+//     <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
+//   );
+// }
 
 const GamesNewsArea = () => {
    const settings={
     dots: false,
     infinite: true,
     speed: 1000,
-    autoplay: false,
-    arrows: true,
+    autoplay: true,
+    arrows: false,
     slidesToShow: 1,
     slidesToScroll: 1,
-    prevArrow:<PrevArrow/>,
-    nextArrow: <NextArrow/>,
+    // prevArrow:<PrevArrow/>,
+    // nextArrow: <NextArrow/>,
     appendArrows: '.community-news-nav',
     responsive: [
       {
