@@ -5124,8 +5124,11 @@ ul.minicart .cart-price .new {
 
 /* Trending */
 
-.trending-news-active button.slick-arrow{
-	display: none !important;
+.trending-news-active button.slick-arrow {
+    position: absolute;
+    top: -60px;
+    left: 250px;
+    z-index: 1;
 }
 .trending-gamepay-area {
 	background: #171821;
@@ -6521,7 +6524,7 @@ ul.minicart .cart-price .new {
 	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.29);
 }
 .trending-news-item.horizontal-item {
-    display: flex;
+    display: flex !important;
     align-items: center;
 	border: none;
 }
@@ -6546,10 +6549,8 @@ ul.minicart .cart-price .new {
 .community-news-nav {
 	margin-left: auto !important;
 }
-.trending-news-nav button,
-.business-news-nav button,
-.community-news-nav button {
-    border: none;
+.trending-news-active button.slick-arrow, button{
+	border: none;
     padding: 0;
     width: 23px;
     height: 20px;
@@ -6561,11 +6562,46 @@ ul.minicart .cart-price .new {
     cursor: pointer;
 	transition: .3s linear;
 }
-.trending-news-active button.slick-arrow.slick-next {
-  margin-left: 50px;
+.business-news-nav button.slick-arrow, button{
+	border: none;
+    padding: 0;
+    width: 23px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    color: #24252f;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+	transition: .3s linear;
 }
+.community-news-nav button.slick-arrow, button {
+    border: none;
+    padding: 0;
+    width: 23px;
+    height: 20px;
+    line-height: 20px;
+    background: #fff;
+    color: #24252f;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s linear;
+    top: -65px;
+    left: 350px;
+    z-index: 1;
+}
+
+.trending-news-active button.slick-arrow.slick-next {
+  margin-left: 100px;
+}
+
 .trending-news-active button.slick-arrow.slick-prev {
 	margin-left: 50px;
+  }
+  .community-news-nav button.slick-arrow, button.slick-arrow.slick-prev{
+	  margin-left: -45px;
   }
 .trending-news-nav button.slick-next,
 .business-news-nav button.slick-next,
@@ -7015,4 +7051,7 @@ ul.minicart .cart-price .new {
     display: none;
     margin-top: 3px;
 	z-index:99;
+}
+.mobile-nav-toggler.two {
+    padding-top: 12px;
 }

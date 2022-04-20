@@ -204,8 +204,10 @@
 .transparent-header {
 	background-image: url(../img/bg/header_bg.jpg);
 }
-.menu-style-two .navbar-wrap ul li a {
-	padding: 15px 20px;
+.menu-style-two {
+    padding: 10px 0px !important;
+    border-radius: 0;
+    background-image: none;
 }
 .slider-img.slider-img2 {
 	display: none;
@@ -588,7 +590,7 @@
 	display: none;
 }
 .transparent-header {
-	padding: 25px 0 10px;
+	padding: 0px 0 10px;
 	top: 0;
 }
 .menu-style-two {
@@ -745,7 +747,7 @@
 }
 .third-header-bg {
     background: #1c1f26;
-    padding: 20px 0 5px;
+    padding: 20px 0 20px;
 }
 .third-header-bg .sticky-menu {
     padding: 20px 0 5px;
@@ -841,9 +843,8 @@ form.third-contact-form {
 	justify-content: center;
 	padding: 10px 0;
 }
-.main-header,
-.main-header.sticky-menu {
-	padding: 25px 0 10px;
+.main-header, .main-header.sticky-menu {
+    padding: 15px 0 20px;
 }
 .main-menu nav {
 	justify-content: space-between;

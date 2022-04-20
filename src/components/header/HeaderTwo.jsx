@@ -100,7 +100,7 @@ export default function HeaderTwo() {
             <div className="container-fluid s-container-full-padding">
               <div className="row">
                 <div className="col-12">
-                <div className="mobile-nav-toggler"><i className="fas fa-bars" /></div>
+                <div className="mobile-nav-toggler two"><i className="fas fa-bars" /></div>
                   <div className="main-menu  menu-style-two">
                     <nav>
                       <div className="logo">
@@ -115,8 +115,8 @@ export default function HeaderTwo() {
                               <li><Link to="/index-3">Home Three</Link></li>
                               <li ><Link to="/index-4">Home Four</Link></li>
                               <li><Link to="/index-5">Home Five</Link></li>
-                              {/* <li><Link to="/index-6">Home Six</Link></li>
-                              <li><Link to="/index-7">Home Seven</Link></li> */}
+                              <li><Link to="/index-6">Home Six</Link></li>
+                              <li><Link to="/index-7">Home Seven</Link></li>
                              
                             </ul>
                           </li>

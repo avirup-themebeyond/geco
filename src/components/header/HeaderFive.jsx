@@ -106,8 +106,8 @@ const HeaderFive = () => {
                               <li><Link to="/index-3">Home Three</Link></li>
                               <li ><Link to="/index-4">Home Four</Link></li>
                               <li><Link to="/index-5">Home Five</Link></li>
-                              {/* <li><Link to="/index-6">Home Six</Link></li>
-                              <li><Link to="/index-7">Home Seven</Link></li> */}
+                              <li><Link to="/index-6">Home Six</Link></li>
+                              <li><Link to="/index-7">Home Seven</Link></li>
                       </ul>
                     </li>
                     <li><Link to="/about-us">About</Link></li>
@@ -146,15 +146,15 @@ const HeaderFive = () => {
                     <nav>
                       <div  className="navbar-wrap push-menu">
                         <ul className="navigation">
-                          <li className="show menu-item-has-children"><Link href="/">Home</Link>
+                          <li className="show menu-item-has-children"><Link to="/">Home</Link>
                             <ul className="submenu">
                               <li><Link to="/">Home One</Link></li>
                               <li><Link to="/index-2">Home Two</Link></li>
                               <li><Link to="/index-3">Home Three</Link></li>
                               <li><Link to="index-4">Home Four</Link></li>
                               <li><Link to="index-5">Home Five</Link></li>
-                              {/* <li><Link to="index-6">Home Six</Link></li>
-                              <li><Link to="index-7">Home Seven</Link></li> */}
+                              <li><Link to="index-6">Home Six</Link></li>
+                              <li><Link to="index-7">Home Seven</Link></li>
                             </ul>
                           </li>
                           <li><Link to="/about-us">About</Link></li>

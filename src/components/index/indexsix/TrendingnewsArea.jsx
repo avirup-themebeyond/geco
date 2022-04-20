@@ -6,18 +6,18 @@ import Slider from "react-slick"
 
 
 
-// function PrevArrow(props){
-//     const {className,onClick} = props;
-//     return(
-//       <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
-//     );
-//   }
-//   function NextArrow(props){
-//     const {className,onClick} = props;
-//     return(
-//       <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
-//     );
-//   }
+function PrevArrow(props){
+    const {className,onClick} = props;
+    return(
+      <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-left"></i></button>
+    );
+  }
+  function NextArrow(props){
+    const {className,onClick} = props;
+    return(
+      <button type='button' className ={ className } onClick={ onClick }><i className="fas fa-angle-right"></i></button>
+    );
+  }
 
 const TrendingnewsArea = () => {
 
@@ -33,8 +33,8 @@ const TrendingnewsArea = () => {
             slidesToShow: 3,
             slidesToScroll: 1,
             vertical: true,
-            // prevArrow:<PrevArrow/>,
-            // nextArrow: <NextArrow/>,
+            prevArrow:<PrevArrow/>,
+            nextArrow: <NextArrow/>,
             appendArrows: '.trending-news-nav',
             responsive: [
                 {

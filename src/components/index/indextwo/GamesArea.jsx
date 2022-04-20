@@ -111,7 +111,7 @@ function GamesArea() {
                 <div className="col-lg-4 col-sm-6 grid-item">
                   <div className="featured-game-item mb-30">
                     <div className="featured-game-thumb">
-                      <img src="assets/img/images/featured_game_thumb06.jpg" alt="" />
+                      <img src="assets/img/images/featured_game_thumb05.jpg" alt="" />
                     </div>
                     <div className="featured-game-content">
                       <h4><Link to="/#">JUST FOR <span>GAMERS</span></Link></h4>
@@ -133,7 +133,7 @@ function GamesArea() {
                 <div className="col-lg-4 col-sm-6 grid-item">
                   <div className="featured-game-item mb-30">
                     <div className="featured-game-thumb">
-                      <img src="assets/img/images/featured_game_thumb05.jpg" alt="" />
+                      <img src="assets/img/images/featured_game_thumb06.jpg" alt="" />
                     </div>
                     <div className="featured-game-content">
                       <h4><Link to="/#">JUST FOR <span>GAMERS</span></Link></h4>

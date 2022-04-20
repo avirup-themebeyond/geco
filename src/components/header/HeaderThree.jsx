@@ -104,8 +104,8 @@ function HeaderThree() {
                               <li> <Link to="/index-3"> HomeThree </Link> </li>
                               <li ><Link to="/index-4">Home Four</Link></li>
                               <li> <Link to="/index-5"> Home Five </Link> </li>
-                              {/* <li ><Link to="/index-6">Home Six</Link></li>
-                              <li> <Link to="/index-7"> Home Seven </Link> </li> */}
+                              <li ><Link to="/index-6">Home Six</Link></li>
+                              <li> <Link to="/index-7"> Home Seven </Link> </li>
 
                             </ul>
                           </li>
@@ -151,8 +151,8 @@ function HeaderThree() {
                               <li><Link to="/index-3">Home Three</Link></li>
                               <li><Link to="index-4">Home Four</Link></li>
                               <li><Link to="index-5">Home Five</Link></li>
-                              {/* <li><Link to="index-6">Home Six</Link></li>
-                              <li><Link to="index-7">Home Seven</Link></li>  */}
+                              <li><Link to="index-6">Home Six</Link></li>
+                              <li><Link to="index-7">Home Seven</Link></li> 
                             </ul>
                           </li>
                           <li><Link to="/about-us">About</Link></li>
